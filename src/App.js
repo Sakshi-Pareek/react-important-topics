@@ -1,24 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import AccodianInTailwind from './components/AccodianInTailwind';
+import AccorByFamerMotion from './components/AccorByFamerMotion';
+import ApiUseEffect from './components/ApiUseEffect';
+import Clock from './components/Clock';
+import CounterAppByUseReducer from './components/CounterAppByUseReducer';
+import CustomPopUp from './components/CustomPopUp';
+import { Emailjs } from './components/Emailjs';
+import FormSub from './components/FormSub';
+// import FormValid from './components/FormValid';
+import Modal from './components/Modal';
+import NavBarSec from './components/NavBarSec';
+import PrintValueInTable from './components/PrintValueInTable';
+import SplideSlider from './components/SplideSlider';
+import StyleCompo from './components/StyleCompo';
+import SwiperSlider from './components/SwiperSlider';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBarSec />
+      <AccodianInTailwind />
+      <AccorByFamerMotion />
+      <CounterAppByUseReducer />
+      <Emailjs />
+      <FormSub />
+      <Modal />
+      <Clock />
+      <ApiUseEffect />
+      <TodoList />
+      <SplideSlider />
+      <SwiperSlider />
+      <CustomPopUp />
+      <PrintValueInTable />
+      <StyleCompo />
+      {/* <FormValid /> */}
+    </>
   );
 }
 
